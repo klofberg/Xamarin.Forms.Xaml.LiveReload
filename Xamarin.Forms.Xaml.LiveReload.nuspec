@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.Forms.Xaml.LiveReload</id>
+    <version>0.0.3</version>
+    <authors>Kristofer Löfberg</authors>
+    <owners>Kristofer Löfberg</owners>
+    <title>Live reload of XAML pages in Xamarin.Forms</title>
+    <licenseUrl>https://github.com/klofberg/Xamarin.Forms.Xaml.LiveReload/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/klofberg/Xamarin.Forms.Xaml.LiveReload</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Live reloading of XAML pages in the iOS and Android simulators when saving changes to XAML files from Visual Studio.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>xamarin forms xaml live reload</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="readme.txt" target="" />
+    <file src="Xamarin.Forms.Xaml.LiveReload\bin\Release\Xamarin.Forms.Xaml.LiveReload.dll" target="lib\portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10\Xamarin.Forms.Xaml.LiveReload.dll" />
+    <file src="Xamarin.Forms.Xaml.LiveReload.iOS\bin\Release\Xamarin.Forms.Xaml.LiveReload.iOS.dll" target="lib\MonoTouch10\Xamarin.Forms.Xaml.LiveReload.dll" />
+    <file src="Xamarin.Forms.Xaml.LiveReload.Server\bin\Release\livereload.exe" target="livereload.exe" />      
+  </files>
+  
+</package>
