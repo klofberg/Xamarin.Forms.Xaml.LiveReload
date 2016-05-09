@@ -1,6 +1,9 @@
 # Live reload for Xamarin.Forms XAML pages
 Live reloading of XAML pages in the iOS and Android simulators when saving changes to XAML files from Visual Studio.
 
+## Build Status
+![alt text](https://ci.appveyor.com/api/projects/status/q3id0ulvhb8dpoe6?svg=true "Build status")
+
 ## Instructions
 
 1. Add the following to your Xamarin.Forms App class
