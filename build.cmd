@@ -10,3 +10,7 @@ if not exist tools\Cake\Cake.exe (
 
 echo Starting Cake...
 tools\Cake\Cake.exe build.cake
+
+echo Deleting Cake nupkg...
+rd /S /Q tools\Cake
+rd /S /Q tools\Addins
