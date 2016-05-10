@@ -14,3 +14,5 @@ tools\Cake\Cake.exe build.cake
 echo Deleting Cake nupkg...
 rd /S /Q tools\Cake
 rd /S /Q tools\Addins
+
+copy README.md readme.txt
