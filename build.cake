@@ -2,7 +2,7 @@
 
 var TARGET = Argument ("target", Argument ("t", "NuGetPack"));
 
-var version = Argument ("pkgversion", EnvironmentVariable ("APPVEYOR_BUILD_VERSION") ?? "0.0.9999");
+//var version = Argument ("pkgversion", EnvironmentVariable ("APPVEYOR_BUILD_VERSION") ?? "0.0.9999");
 
 Task ("Build").Does (() =>
 {
@@ -26,7 +26,7 @@ Task ("NuGetPack")
 	.Does (() =>
 {
 	NuGetPack ("./Xamarin.Forms.Xaml.LiveReload.nuspec", new NuGetPackSettings { 
-		Version = version,
+		//Version = version,
 		Verbosity = NuGetVerbosity.Detailed,
 		OutputDirectory = "./",
 		BasePath = "./",
