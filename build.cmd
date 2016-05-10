@@ -15,4 +15,5 @@ echo Deleting Cake nupkg...
 rd /S /Q tools\Cake
 rd /S /Q tools\Addins
 
+del /Q /F readme.txt
 copy README.md readme.txt

@@ -1,6 +1,9 @@
 # Live reload for Xamarin.Forms XAML pages
 Live reloading of XAML pages in the iOS and Android simulators when saving changes to XAML files from Visual Studio.
 
+## Build Status
+[![klofberg MyGet Build Status](https://www.myget.org/BuildSource/Badge/klofberg?identifier=5400c12d-0f4f-4552-be02-0a0030393b4f)](https://www.myget.org/)
+
 ## Instructions
 1. Install nuget package `Xamarin.Forms.Xaml.LiveReload` from
     https://www.myget.org/F/klofberg/api/v3/index.json
