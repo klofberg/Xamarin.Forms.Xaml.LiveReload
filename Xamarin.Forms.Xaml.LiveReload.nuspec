@@ -18,8 +18,9 @@
   </metadata>
   <files>
     <file src="README.md" target="" />
-    <file src="Xamarin.Forms.Xaml.LiveReload\bin\Release\Xamarin.Forms.Xaml.LiveReload.dll" target="lib\portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10\Xamarin.Forms.Xaml.LiveReload.dll" />
+    <file src="Xamarin.Forms.Xaml.LiveReload\bin\Release\Xamarin.Forms.Xaml.LiveReload.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.LiveReload.dll" />
     <file src="Xamarin.Forms.Xaml.LiveReload.iOS\bin\Release\Xamarin.Forms.Xaml.LiveReload.iOS.dll" target="lib\MonoTouch10\Xamarin.Forms.Xaml.LiveReload.dll" />
+    <file src="Xamarin.Forms.Xaml.LiveReload.iOS\bin\Release\Xamarin.Forms.Xaml.LiveReload.iOS.dll" target="lib\Xamarin.iOS10\Xamarin.Forms.Xaml.LiveReload.dll" />
     <file src="Xamarin.Forms.Xaml.LiveReload.Server\bin\Release\livereload.exe" target="livereload.exe" />      
   </files>
   
